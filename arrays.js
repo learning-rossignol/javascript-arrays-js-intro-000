@@ -26,3 +26,6 @@ destructivelyRemoveElementFromEndOfArray = (arr) => {
   return arr;
 }
 removeElementFromEndOfArray = (arr) => arr.slice(0, arr.length - 1);
+
+myArray = [1,2,3];
+console.log([...myArray, 4,5,6]);
