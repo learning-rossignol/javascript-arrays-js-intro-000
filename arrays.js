@@ -29,3 +29,6 @@ removeElementFromEndOfArray = (arr) => arr.slice(0, arr.length - 1);
 
 myArray = [1,2,3];
 console.log([...myArray, 4,5,6, ...myArray]);
+
+const letters = ["alpha", "gamma", "delta"];
+console.log([...letters.slice(0,1), "beta", ...letters.slice(1)])
